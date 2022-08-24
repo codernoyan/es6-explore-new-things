@@ -22,5 +22,5 @@ const products = [
 
 // const expensive = products.filter(product => product.price > 100000);
 // const expensive = products.filter(product => product.price > 100);
-const expensive = products.filter(product => product.price < 100);
+const expensive = products.filter(product => product.price < 40000);
 console.log(expensive);
